@@ -1,0 +1,55 @@
+{
+  "master": {
+    "host": "127.0.0.1",
+    "port": 20810
+  },
+  "servers": {
+    "count": 10,
+    "base_port": 28960,
+    "info_mode": "clone",
+    "force_map": null,
+    "force_gametype": null
+  },
+  "custom": {
+    "names": [
+      "^1[EU] My Custom Server #1",
+      "^2[FR] Test Server",
+      "^3[NA] Sniper Only 24/7",
+      "^5[PRO] Tryhard Lobby",
+      "^6[HC] Hardcore S&D"
+    ],
+    "map": null,
+    "gametype": null,
+    "max_clients": 24,
+    "players_min": 0,
+    "players_max": 16,
+    "password": false
+  },
+  "proxy": {
+    "enabled": false,
+    "file": "proxy.txt"
+  },
+  "connection": {
+    "reject_message": "This is a test server (fake). Connection refused.",
+    "log_attempts": true
+  },
+  "heartbeat": {
+    "aggressive": false,
+    "interval": 25,
+    "jitter": 6
+  },
+  "players": {
+    "dynamic": true,
+    "change_interval": 40
+  },
+  "auth_token": "",
+  "logging": {
+    "file": "logs/simulator.log",
+    "console_stats_interval": 60
+  },
+  "cache": {
+    "enabled": true,
+    "file": "data/real_servers_cache.json",
+    "max_age_minutes": 30
+  }
+}
