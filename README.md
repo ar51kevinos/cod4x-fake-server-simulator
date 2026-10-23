@@ -44,7 +44,7 @@ No `pip install` needed.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/cod4x-fake-server-simulator.git
+git clone https://github.com/ar51kevinos/cod4x-fake-server-simulator.git
 cd cod4x-fake-server-simulator
 
 # 2. Create your config
